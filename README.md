@@ -35,17 +35,16 @@ The goal of this project is to analyze historical sales data, identify trends, c
 These findings describe sales revenue rather than profit. The analysis identifies historical patterns but does not establish the causes behind them.
 
 ## Project Structure
-
-```text
 sales-analysis/
 ├── README.md
 ├── .gitignore
 ├── data/
+│   └── train.csv
 └── notebooks/
     └── sales_analysis.ipynb
-```
 
 ## How to Run
+Dataset: The dataset is included in data/train.csv. Ensure the notebook reads the file from the correct relative path.
 
 ### 1. Clone the repository
 
